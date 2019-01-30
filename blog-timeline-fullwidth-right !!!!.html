@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Rocket Elevetors</title>
+		<meta name="description" content="" />
+		<link rel="shortcut icon" href="RocketElevatorAssets\R2.png">
+        <link rel="apple-touch-icon image_src" href="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+		<meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+		<!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+
+		<!-- CORE CSS -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		
+		<!-- THEME CSS -->
+		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+
+		<!-- PAGE LEVEL SCRIPTS -->
+		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
+		
+				<!-- REVOLUTION SLIDER -->
+		<link href="assets/plugins/slider.revolution/css/extralayers.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/slider.revolution/css/settings.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	
+
+	<!--
+		AVAILABLE BODY CLASSES:
+		
+		smoothscroll 			= create a browser smooth scroll
+		enable-animation		= enable WOW animations
+
+		bg-grey					= grey background
+		grain-grey				= grey grain background
+		grain-blue				= blue grain background
+		grain-green				= green grain background
+		grain-blue				= blue grain background
+		grain-orange			= orange grain background
+		grain-yellow			= yellow grain background
+		
+		boxed 					= boxed layout
+		pattern1 ... patern11	= pattern background
+		menu-vertical-hide		= hidden, open on click
+		
+		BACKGROUND IMAGE [together with .boxed class]
+		data-background="assets/images/_smarty/boxed_background/1.jpg"
+	-->
+	<body class="smoothscroll enable-animation">
+
+		<!-- SLIDE TOP -->
+		<div id="slidetop">
+
+			<div class="container">
+				
+				<div class="row">
+
+					<div class="col-md-4">
+						<h6><i class="icon-heart"></i> WHY ROCKET ELEVATORS?</h6>
+						<p>We are a competent and trusted team. We perform one of the best customer services. You can trust us. </p>
+					</div>
+
+
+					<div class="col-md-4">
+						<h6><i class="icon-envelope"></i> CONTACT INFO</h6>
+						<ul class="list-unstyled">
+							<li><b>Address:</b> 418-725 Boulvard Lebourgneuf, <br /> Quéebec, Quénec, G2J 0C4</li>
+							<li><b>Phone:</b> (418) 580-7055</li>
+							<li><b>Email:</b> <a href="mailto:nicolas.genest@codeboxx.biz">nicolas.genest@codeboxx.biz</a></li>
+						</ul>
+					</div>
+
+				</div>
+
+			</div>
+
+			<a class="slidetop-toggle" href="#"><!-- toggle button --></a>
+
+		</div>
+		<!-- /SLIDE TOP -->
+
+
+		<!-- wrapper -->
+		<div id="wrapper">
+
+			<!-- 
+				AVAILABLE HEADER CLASSES
+
+				Default nav height: 96px
+				.header-md 		= 70px nav height
+				.header-sm 		= 60px nav height
+
+				.b-0 		= remove bottom border (only with transparent use)
+				.transparent	= transparent header
+				.translucent	= translucent header
+				.sticky			= sticky header
+				.static			= static header
+				.dark			= dark header
+				.bottom			= header on bottom
+				
+				shadow-before-1 = shadow 1 header top
+				shadow-after-1 	= shadow 1 header bottom
+				shadow-before-2 = shadow 2 header top
+				shadow-after-2 	= shadow 2 header bottom
+				shadow-before-3 = shadow 3 header top
+				shadow-after-3 	= shadow 3 header bottom
+
+				.clearfix		= required for mobile menu, do not remove!
+
+				Example Usage:  class="clearfix sticky header-sm transparent b-0"
+			-->
+			<div id="header" class="navbar-toggleable-md sticky clearfix">
+
+				<!-- TOP NAV -->
+				<header id="topNav">
+					<div class="container">
+
+						<!-- Mobile Menu Button -->
+						<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+
+						<!-- BUTTONS -->
+						<ul class="float-right nav nav-pills nav-second-main">
+
+							<!-- SEARCH -->
+							<li class="search">
+								<a href="javascript:;">
+									<i class="fa fa-search"></i>
+								</a>
+								<div class="search-box">
+									<form action="page-search-result-1.html" method="get">
+										<div class="input-group">
+											<input type="text" name="src" placeholder="Search" class="form-control" />
+											<span class="input-group-btn">
+												<button class="btn btn-primary" type="submit">Search</button>
+											</span>
+										</div>
+									</form>
+								</div> 
+							</li>
+							<!-- /SEARCH -->
+
+						</ul>
+						<!-- /BUTTONS -->
+
+						<!-- Logo -->
+						<a class="logo float-left" href="blog-timeline-fullwidth-right%20!!!!.html#">
+							<img src="RocketElevatorAssets\R2.png" alt="" />
+						</a>
+
+						<!-- 
+							Top Nav 
+							
+							AVAILABLE CLASSES:
+							submenu-dark = dark sub menu
+						-->
+						<div class="navbar-collapse collapse float-right nav-main-collapse submenu-dark">
+							<nav class="nav-main">
+
+								<!--
+									NOTE
+									
+									For a regular link, remove "dropdown" class from LI tag and "dropdown-toggle" class from the href.
+									Direct Link Example: 
+
+									<li>
+										<a href="#">HOME</a>
+									</li>
+								-->
+								<ul id="topMain" class="nav nav-pills nav-main">
+										<li class="dropdown"><!-- HOME -->
+											<a class="" href="blog-timeline-fullwidth-right%20!!!!.html">
+												HOME
+											</a>
+										</li>
+									<li class="dropdown"><!-- HOME -->
+										<a class="#" href="blog-timeline-fullwidth-right%20!!!!.html#SERV">
+											SERVICE
+										</a>
+									</li>
+									<li class="dropdown"><!-- PAGES -->
+										<a class="dropdown" href="blog-timeline-fullwidth-right%20!!!!.html#PORT">
+											PORTFOLIO
+										</a>
+
+									</li>
+									<li class="dropdown" ><!-- PAGES -->
+										<a class="" href="blog-timeline-fullwidth-right%20!!!!.html#NEWS_PAGE">
+											NEWS
+										</a>
+
+									</li>
+
+								</li>
+								<li class="dropdown"><!-- PAGES -->
+									<a class="" href="blog-timeline-fullwidth-right%20!!!!.html#CLIENTS_PAGE">
+										CLIENTS
+									</a>
+
+								</li>
+								<li class="dropdown"><!-- PAGES -->
+									<a class="" href="blog-timeline-fullwidth-right%20!!!!.html#PAGE_CONTACT">
+										CONTACT
+									</a>
+
+								</li>
+
+								</li>
+
+									<!-- 
+										MENU ANIMATIONS
+											.nav-animate-fadeIn
+											.nav-animate-fadeInUp
+											.nav-animate-bounceIn
+											.nav-animate-bounceInUp
+											.nav-animate-flipInX
+											.nav-animate-flipInY
+											.nav-animate-zoomIn
+											.nav-animate-slideInUp
+
+											.nav-hover-animate 		= animate text on hover
+
+											.hover-animate-bounceIn = bounceIn effect on mouse over of main menu
+									-->
+											<li>
+												<div class="row">
+
+													<div class="col-md-5th">
+														<ul class="list-unstyled">
+														</p>
+													</div>
+											</li>
+										</ul>
+									</li>
+								</ul>
+
+							</nav>
+						</div>
+
+					</div>
+				</header>
+				<!-- /Top Nav -->
+
+			</div>
+
+
+
+
+			<!-- -->
+			<section id="SERVICE">
+					<div class="container">
+	
+						<div class="flexslider" data-delay="7000">
+							<ul class="slides">
+								
+								<!-- Slide 1 -->
+								<li>
+										<img src="RocketElevatorAssets\AdobeStock_130711085.jpeg" alt="Slide 2">
+										<div class="flex-caption"><a href="index-corporate-1.html" class="#" >GET A QUOTE</a> <div id:service </div> <a href="blog-timeline-fullwidth-right%20!!!!.html#SERV" class="#">SERVICE</a></div>
+																				
+									</a>
+								</li>
+	
+								<!-- Slide 2 -->
+								<li>
+										<img src="RocketElevatorAssets\AdobeStock_3294993.jpeg" alt="Slide 3">
+										<div class="flex-caption"><a href="#" class="text-black">SERVICE FOR RESIDENTIAL BUILDINGS</a></div>
+										<div class="flex-caption"><a href="index-corporate-2.html" class="#" >SERVICE FOR RESIDENTIAL BUILDINGS</a></div>									</a>
+								</li>
+	
+								<!-- Slide 3 -->
+								<li>
+									<a href="index-corporate-3.html">
+										<img src="RocketElevatorAssets\AdobeStock_179073967.jpeg" alt="Slide 4">
+										<div class="flex-caption"><a href="#" class="text-black">SERVICE FOR CORPORATE</a></div>
+										<div class="flex-caption"><a href="index-corporate-3.html" class="#" >SERVICE FOR CORPORATE</a></div>	
+									</a>
+	
+								</li>
+							</ul>
+						</div>
+	
+					</div>
+				<!-- / -->
+
+						<!-- /POST ITEM -->
+
+						
+			<!-- -->
+			<section id="SERV">
+				<div class="container">
+
+					<div class="row">
+
+						<!-- POST ITEM -->
+						<div class="blog-post-item col-md-4 col-sm-4">
+
+							<!-- IMAGE -->
+
+							<figure class="mb-20">
+								<img class="img-fluid" src="RocketElevatorAssets\whqsWl5.0.jpg" alt="portfolio-single-project.html">
+							</figure>
+
+							<h2>AWARD AND SUCCESS</h2>
+
+							<ul class="blog-post-info list-inline">
+							</ul>
+
+							<p>You will find on this page all the prices or projects that we have been able to do during the last years. We are our biggest design.
+
+								We are proud to show you our trust in our customers. It's an honor to do business with you during your project</p>
+
+								<a href="portfolio-single-project.html" class="btn btn-reveal btn-default b-0 btn-shadow-1">
+									<i class="fa fa-plus"></i>
+									<span>Read More</span>
+								</a>
+						</div>
+						<!-- /POST ITEM -->
+
+
+						<!-- POST ITEM -->
+						<div class="blog-post-item col-md-4 col-sm-4">
+
+							<!-- IMAGE -->
+							<figure class="mb-20">
+								<img class="img-fluid" src="RocketElevatorAssets\home-elevator.png" alt="">
+							</figure>
+
+							<h2>SERVICE FOR RESIDENTIAL</h2>
+
+							<ul class="blog-post-info list-inline">
+							</ul>
+
+							<p>When you’re home, everything is just right. A Rocket Elevators mobility solution, supported around the clock by our best-in-class service, makes it even better.</p>
+
+							<a href="index-corporate-2.html" class="btn btn-reveal btn-default b-0 btn-shadow-1">
+								<i class="fa fa-plus"></i>
+								<span>Read More</span>
+							</a>
+
+						</div>
+						<!-- /POST ITEM -->
+
+
+						<!-- POST ITEM -->
+						<div class="blog-post-item col-md-4 col-sm-4">
+
+							<!-- IMAGE -->
+							<figure class="mb-20">
+								<img class="img-fluid" src="RocketElevatorAssets\iot-elevators-1a-360x230.jpg" alt="">
+							</figure>
+
+							<h2>SERVICE FOR CORPORATE</h2>
+
+							<ul class="blog-post-info list-inline">
+							</ul>
+
+							<p>Our priorities include punctual service, quality work and exceptional availability. Our objective is to bring all your projects to fruition. We are a dynamic and down-to-earth company that is always tuned to your needs.</p>
+
+							<a href="index-corporate-3.html" class="btn btn-reveal btn-default b-0 btn-shadow-1">
+								<i class="fa fa-plus"></i>
+								<span>Read More</span>
+							</a>
+
+						</div>
+						<!-- /POST ITEM -->
+
+					</div>
+
+					<!-- FEATURED BOXES 3 -->
+					<div class="row">
+						<div class="col-md-3 col-6">
+							<div class="text-center">
+								<i class="ico-light ico-lg ico-rounded ico-hover et-lifesaver"></i>
+								<h4>Founded since 1976</h4>
+								<p>Always so faithful !</p>
+
+								<a href="index-corporate-1.html">
+								</a>
+
+							</div>
+						</div>
+						<div class="col-md-3 col-6">
+							<div class="text-center">
+								<i class="ico-light ico-lg ico-rounded ico-hover et-wine"></i>
+								<h4>SUBMISSION</h4>
+								<p>Make your quote now, for free!</p>
+
+								<a href="index-corporate-1.html">
+									Read
+									<!-- /word rotator -->
+									<span class="word-rotator" data-delay="2000">
+										<span class="items">
+											<span>more</span>
+											<span>now</span>
+										</span>
+									</span><!-- /word rotator -->
+									<i class="glyphicon glyphicon-menu-right fs-12"></i>
+								</a>
+
+							</div>
+						</div>
+						<div class="col-md-3 col-6">
+							<div class="text-center">
+								<i class="ico-light ico-lg ico-rounded ico-hover et-circle-compass"></i>
+								<h4>Contact us</h4>
+								<p>Contact us for more information !</p>
+
+								<a href="#PAGE_CONTACT">
+									Read
+									<!-- /word rotator -->
+									<span class="word-rotator" data-delay="2000">
+										<span class="items">
+											<span>more</span>
+											<span>now</span>
+										</span>
+									</span><!-- /word rotator -->
+									<i class="glyphicon glyphicon-menu-right fs-12"></i>
+								</a>
+
+							</div>
+						</div>
+						<div class="col-md-3 col-6">
+							<div class="text-center">
+								<i class="ico-light ico-lg ico-rounded ico-hover et-presentation"></i>
+								<h4>About Rocket Elevators</h4>
+								<p>More information </p>
+
+								<a href="#footer_page">
+									Read
+									<!-- /word rotator -->
+									<span class="word-rotator" data-delay="2000">
+										<span class="items">
+											<span>more</span>
+											<span>now</span>
+										</span>
+									</span><!-- /word rotator -->
+									<i class="glyphicon glyphicon-menu-right fs-12"></i>
+								</a>
+
+							</div>
+						</div>
+					</div>
+					<!-- /FEATURED BOXES 3 -->
+					
+				</div>
+			</section>
+			<!-- / -->
+					
+
+				<!-- /CAROUSEL ELEVATOR -->
+				<!-- 
+	controlls-over		= navigation buttons over the image 
+	buttons-autohide 	= navigation buttons visible on mouse hover only
+	
+	data-plugin-options:
+		"singleItem": true
+		"autoPlay": true (or ms. eg: 4000)
+		"navigation": true
+		"pagination": true
+		"transitionStyle":"fadeUp" (fade,backSlide,goDown,fadeUp)
+-->
+				
+				            <!-- PORTFOLIO -->
+			<section id="PORT">
+				<div class="container">
+
+
+					<header class="text-center mb-60">
+						<h2 class="fs-25">PORTFOLIO</h2>
+						<p class="fw-300">See our greatest successes and our prices!.</p>
+					</header>
+
+
+					<div class="row property-item-list">
+
+						<div class="col-12 col-md-4 col-sm-6">
+
+							<div class="property-item property-item-box radius-0">
+
+								<!-- IMAGE -->
+								<a class="property-image mb-20">
+									
+									<!-- RIBBON -->
+									<div class="property-ribbon">
+									</div>
+									
+									<img class="img-fluid lazy" src="assets/images/_smarty/lazy-loadimg.png" data-original="RocketElevatorAssets\whqsWl5.0.jpg" alt="">
+								</a>
+
+
+								<!-- PRICE and STREET LOCATION -->
+								<h4 class="property-item-price">
+									<small class="float-right text-success">
+									</small>
+
+										<span class="block fw-300 fs-14 text-black">WINNER OF THE HÉLIX AWARD FOR THE MOST MODERN ELEVATOR OF 2016</span>
+									</strong>
+								</h4>
+
+
+							</div>
+
+						</div>
+
+
+
+						<div class="col-12 col-md-4 col-sm-6">
+
+							<div class="property-item property-item-box radius-0">
+
+								<!-- IMAGE -->
+								<a class="property-image mb-20">
+									<img class="img-fluid lazy" src="assets/images/_smarty/lazy-loadimg.png" data-original="RocketElevatorAssets\ADAM_elevator_3ed.jpg" alt="">
+								</a>
+
+
+								<!-- PRICE and STREET LOCATION -->
+								<h4 class="property-item-price">
+									<small class="float-right text-silver">
+									</small>
+
+										<span class="block fw-300 fs-14 text-black">TECHNOLOGICAL LIFT CREATOR</span>
+									</strong>
+								</h4>
+
+
+							</div>
+
+						</div>
+
+
+
+						<div class="col-12 col-md-4 col-sm-6">
+
+							<div class="property-item property-item-box radius-0">
+
+								<!-- IMAGE -->
+								<a class="property-image mb-20">
+									<img class="img-fluid lazy" src="assets/images/_smarty/lazy-loadimg.png" data-original="RocketElevatorAssets\elevator.jpg" alt="">
+								</a>
+
+
+								<!-- PRICE and STREET LOCATION -->
+								<h4 class="property-item-price">
+									<small class="float-right text-silver">
+									</small>
+
+										<span class="block fw-300 fs-14 text-black">WINNER OF THE BEST DESIGN AWARD OF 2018</span>
+									</strong>
+								</h4>
+
+
+							</div>
+
+						</div>
+
+
+
+						<div class="col-12 col-md-4 col-sm-6">
+
+							<div class="property-item property-item-box radius-0">
+
+								<!-- IMAGE -->
+								<a class="property-image mb-20">
+									<img class="img-fluid lazy" src="assets/images/_smarty/lazy-loadimg.png" data-original="RocketElevatorAssets\elevator-reuters.jpg" alt="">
+								</a>
+
+
+								<!-- PRICE and STREET LOCATION -->
+								<h4 class="property-item-price">
+									<small class="float-right text-silver">
+									</small>
+
+										<span class="block fw-300 fs-14 text-black">WORLD'S FASTEST ELEVATOR</span>
+									</strong>
+								</h4>
+
+
+							</div>
+
+						</div>
+
+
+
+						<div class="col-12 col-md-4 col-sm-6">
+
+							<div class="property-item property-item-box radius-0">
+
+								<!-- IMAGE -->
+								<a class="property-image mb-20">
+									<img class="img-fluid lazy" src="assets/images/_smarty/lazy-loadimg.png" data-original="RocketElevatorAssets\2B12425000000578-0-image-a-22_1438622493795.jpg" alt="">
+								</a>
+
+
+								<!-- PRICE and STREET LOCATION -->
+								<h4 class="property-item-price">
+									<small class="float-right text-silver">
+									</small>
+
+										<span class="block fw-300 fs-14 text-black">FIRST ELEVATOR IN AN AQUARIUM IN THE WORLD</span>
+									</strong>
+								</h4>
+
+
+							</div>
+
+						</div>
+
+
+
+						<div class="col-12 col-md-4 col-sm-6">
+
+							<div class="property-item property-item-box radius-0">
+
+								<!-- IMAGE -->
+								<a class="property-image mb-20">
+									<img class="img-fluid lazy" src="assets/images/_smarty/lazy-loadimg.png" data-original="RocketElevatorAssets\6.jpg" alt="">
+								</a>
+
+
+								<!-- PRICE and STREET LOCATION -->
+								<h4 class="property-item-price">
+									<small class="float-right text-silver">
+									</small>
+
+										<span class="block fw-300 fs-14 text-black">WORLD'S TALLEST GLASS ELEVATOR</span>
+									</strong>
+								</h4>
+
+
+							</div>
+
+						</div>
+						<div class="row property-item-list">
+
+							<div class="col-12 col-md-4 col-sm-6">
+	
+								<div class="property-item property-item-box radius-0">
+	
+									<!-- IMAGE -->
+									<a class="property-image mb-20"
+										
+										<!-- RIBBON -->
+										<div class="property-ribbon">
+										</div>
+										
+										<img class="img-fluid lazy" src="assets/images/_smarty/lazy-loadimg.png" data-original="RocketElevatorAssets\a3bc23fd058956f925a2b3ec38a38dbc.jpg" alt="">
+									</a>
+	
+	
+									<!-- PRICE and STREET LOCATION -->
+									<h4 class="property-item-price">
+										<small class="float-right text-success">
+										</small>
+
+											<span class="block fw-300 fs-14 text-black">WINNER OF THE HÉLIX AWARD FOR THE MOST MODERN ELEVATOR OF 2016</span>
+										</strong>
+									</h4>
+	
+	
+								</div>
+	
+							</div>
+	
+	
+	
+							<div class="col-12 col-md-4 col-sm-6">
+	
+								<div class="property-item property-item-box radius-0">
+	
+									<!-- IMAGE -->
+									<a class="property-image mb-20">
+										<img class="img-fluid lazy" src="assets/images/_smarty/lazy-loadimg.png" data-original="RocketElevatorAssets\AdobeStock_3294993.jpeg" alt="">
+									</a>
+	
+	
+									<!-- PRICE and STREET LOCATION -->
+									<h4 class="property-item-price">
+										<small class="float-right text-silver">
+										</small>
+	
+											<span class="block fw-300 fs-14 text-black">THE MOST EFFICIENT ELEVATORS IN COMPAGNIES</span>
+										</strong>
+									</h4>
+	
+	
+								</div>
+	
+							</div>
+	
+	
+	
+							<div class="col-12 col-md-4 col-sm-6">
+	
+								<div class="property-item property-item-box radius-0">
+	
+									<!-- IMAGE -->
+									<a class="property-image mb-20">
+										<img class="img-fluid lazy" src="assets/images/_smarty/lazy-loadimg.png" data-original="RocketElevatorAssets\Antique-Elevator-17.jpg" alt="">
+									</a>
+	
+	
+									<!-- PRICE and STREET LOCATION -->
+									<h4 class="property-item-price">
+										<small class="float-right text-silver">
+										</small>
+
+											<span class="block fw-300 fs-14 text-black">ANTIQUE ELEVATORS DESIGNS</span>
+										</strong>
+									</h4>
+	
+	
+								</div>
+	
+							</div>
+	
+	
+	
+							<div class="col-12 col-md-4 col-sm-6">
+	
+								<div class="property-item property-item-box radius-0">
+	
+									<!-- IMAGE -->
+									<a class="property-image mb-20">
+										<img class="img-fluid lazy" src="assets/images/_smarty/lazy-loadimg.png" data-original="RocketElevatorAssets\house-plans-with-elevators-with-clear-glasses-elevator-installed-in-livingroom-and-near-wooden-staircase.jpg" alt="">
+									</a>
+	
+	
+									<!-- PRICE and STREET LOCATION -->
+									<h4 class="property-item-price">
+										<small class="float-right text-silver">
+										</small>
+
+											<span class="block fw-300 fs-14 text-black">WINNER OF THE AWARD OF EXCELLENCE</span>
+										</strong>
+									</h4>
+	
+	
+								</div>
+	
+							</div>
+	
+	
+	
+							<div class="col-12 col-md-4 col-sm-6">
+	
+								<div class="property-item property-item-box radius-0">
+	
+									<!-- IMAGE -->
+									<a class="property-image mb-20">
+										<img class="img-fluid lazy" src="assets/images/_smarty/lazy-loadimg.png" data-original="RocketElevatorAssets\elevator-pitch-franchise-sales.jpg" alt="">
+									</a>
+	
+	
+									<!-- PRICE and STREET LOCATION -->
+									<h4 class="property-item-price">
+										<small class="float-right text-silver">
+										</small>
+
+											<span class="block fw-300 fs-14 text-black">AWARD OF EXCELLENCE IN CUSTOMER SERVICE</span>
+										</strong>
+									</h4>
+	
+	
+								</div>
+	
+							</div>
+	
+	
+	
+							<div class="col-12 col-md-4 col-sm-6">
+	
+								<div class="property-item property-item-box radius-0">
+	
+									<!-- IMAGE -->
+									<a class="property-image mb-20">
+										<img class="img-fluid lazy" src="assets/images/_smarty/lazy-loadimg.png" data-original="RocketElevatorAssets\ele2.jpg" alt="">
+									</a>
+	
+	
+									<!-- PRICE and STREET LOCATION -->
+									<h4 class="property-item-price">
+										<small class="float-right text-silver">
+										</small>
+
+											<span class="block fw-300 fs-14 text-black">FIRST HORIZONTAL LIFT IN THE WORLD</span>
+										</strong>
+									</h4>
+	
+	
+								</div>
+	
+							</div>
+						
+
+
+					</div>
+
+
+
+
+				</div>
+			</section>
+			<!-- /PORTFOLIO -->
+
+			<!-- CEO -->
+							            <!-- PORTFOLIO -->
+										<section>
+												<div class="container">
+								
+								
+													<header class="text-center mb-60">
+														<h2 class="fs-25">TEAM</h2>
+														<p class="fw-300">See our greatest team ! </p>
+													</header>
+								
+								
+													<div class="row property-item-list">
+								
+														<div class="col-12 col-md-4 col-sm-6">
+								
+															<div class="property-item property-item-box radius-0">
+								
+																<!-- IMAGE -->																	
+																	<!-- RIBBON -->
+																	<div class="property-ribbon">
+																	</div>
+																	
+																	<img class="img-fluid lazy" src="assets/images/_smarty/lazy-loadimg.png" data-original="RocketElevatorAssets\téléchargement.jpg" alt="">
+																</a>
+								
+								
+																<!-- PRICE and STREET LOCATION -->
+																<h4 class="property-item-price">
+																	<small class="float-right text-success">
+																	</small>
+								
+																	<strong class="text-primary">
+																		NICOLAS GENEST
+																		<span class="block fw-300 fs-14 text-black">CODEBOXX</span>
+																	</strong>
+																</h4>
+								
+								
+															</div>
+								
+														</div>
+														<div class="col-12 col-md-4 col-sm-6">
+								
+																<div class="property-item property-item-box radius-0">
+									
+																	<!-- IMAGE -->																		
+																		<!-- RIBBON -->
+																		<div class="property-ribbon">
+																		</div>
+																		
+																		<img class="img-fluid lazy" src="assets/images/_smarty/lazy-loadimg.png" data-original="RocketElevatorAssets\TA0LESZM3-UCB8XPEV6-885138464865-72.png" alt="">
+																	</a>
+									
+									
+																	<!-- PRICE and STREET LOCATION -->
+																	<h4 class="property-item-price">
+																		<small class="float-right text-success">
+																		</small>
+									
+																		<strong class="text-primary">
+																			MATHIEU LEFRANCOIS
+																			<span class="block fw-300 fs-14 text-black">CEO</span>
+																		</strong>
+																	</h4>
+									
+									
+																</div>
+									
+															</div>
+								
+								
+								
+														<div class="col-12 col-md-4 col-sm-6">
+								
+															<div class="property-item property-item-box radius-0">
+								
+																<!-- IMAGE -->
+																	<img class="img-fluid lazy" src="assets/images/_smarty/lazy-loadimg.png" data-original="RocketElevatorAssets\30571555_204592023468725_649899766737534976_n.jpg" alt="">
+																</a>
+								
+								
+																<!-- PRICE and STREET LOCATION -->
+																<h4 class="property-item-price">
+																	<small class="float-right text-silver">
+																	</small>
+								
+																	<strong class="text-primary">
+																		JÉRÉMY
+																		<span class="block fw-300 fs-14 text-black">EMPLOYEE</span>
+																	</strong>
+																</h4>
+								
+								
+															</div>
+								
+														</div>
+																															<!-- News -->
+			<section id="NEWS_PAGE">
+				<div class="container">
+
+					<div class="heading-title heading-dotted text-center">
+						<h2>Recent News</h2>
+					</div>
+
+					<!-- 
+						controlls-over		= navigation buttons over the image 
+						buttons-autohide 	= navigation buttons visible on mouse hover only
+						
+						data-plugin-options:
+							"singleItem": true
+							"autoPlay": true (or ms. eg: 4000)
+							"navigation": true
+							"pagination": true
+							"items": "4"
+
+						owl-carousel item paddings
+							.owl-padding-0
+							.owl-padding-3
+							.owl-padding-6
+							.owl-padding-10
+							.owl-padding-15
+							.owl-padding-20
+					-->
+					<div class="owl-carousel owl-padding-10 buttons-autohide controlls-over" data-plugin-options='{"singleItem": false, "items":"4", "autoPlay": 4000, "navigation": true, "pagination": false}'>
+						<div class="img-hover">
+							<a href="https://www.adweek.com/creativity/this-london-agency-gave-people-a-lift-by-redesigning-their-elevators/">
+								<img class="img-fluid" src="RocketElevatorAssets/DMYF-PAGE-2019.png" alt="">
+							</a>
+
+							<h4 class="text-left mt-20"><a href="blog-single-default.html">Rocket Elevators Gave People a Lift by Redesigning Their Elevators</a></h4>
+							<p class="text-left">An elevator isn’t the first place one thinks of for a chance to have some interesting interaction.</p>
+							<ul class="text-left fs-12 list-inline list-separator">
+								<li>
+									<i class="fa fa-calendar"></i> 
+									21h Jan 2019
+								</li>
+								<li>
+									<a href="blog-single-default.html#comments">
+										<i class="fa fa-comments"></i> 
+										32
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="img-hover">
+							<a href="https://www.star-telegram.com/news/local/community/fort-worth/article224927245.html">
+								<img class="img-fluid" src="RocketElevatorAssets/jpshosptial.jpg" alt="">
+							</a>
+
+							<h4 class="text-left mt-20"><a href="blog-single-default.html">Rocket Elevators inspected after employee is seriously injured</a></h4>
+							<p class="text-left">All elevators in John Peter Smith Hospital have been serviced by contractors after an employee was seriously injured on Sunday.</p>
+							<ul class="text-left fs-12 list-inline list-separator">
+								<li>
+									<i class="fa fa-calendar"></i> 
+									21th Jan 2019
+								</li>
+								<li>
+									<a href="blog-single-default.html#comments">
+										<i class="fa fa-comments"></i> 
+										76
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="img-hover">
+							<a href="https://mymodernmet.com/bailong-elevator-worlds-tallest/">
+								<img class="img-fluid" src="RocketElevatorAssets/worlds-tallest-elevator-china-5.jpg" alt="">
+							</a>
+
+							<h4 class="text-left mt-20"><a href="blog-single-default.html">World’s Tallest Outdoor Elevator Soars 1,000 Feet High Along Sandstone Cliff create by Rocket Elevators</a></h4>
+							<p class="text-left">The Guinness Book of World Records named the Bailon elevator as the World’s Tallest Outdoor Elevator.</p>
+							<ul class="text-left fs-12 list-inline list-separator">
+								<li>
+									<i class="fa fa-calendar"></i> 
+									24th Jan 2019
+								</li>
+								<li>
+									<a href="blog-single-default.html#comments">
+										<i class="fa fa-comments"></i> 
+										90
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="img-hover">
+							<a href="https://iotbusinessnews.com/2019/01/18/57030-the-global-iot-in-elevators-market-is-expected-to-reach-us-50-76-bn-by-2026/">
+								<img class="img-fluid" src="RocketElevatorAssets\iot-elevators-1a-360x230.jpg" alt="">
+							</a>
+
+							<h4 class="text-left mt-20"><a href="blog-single-default.html">Rocket Elevators should reach $ 56.76 Bn by 2026!</a></h4>
+							<p class="text-left">According to a new market report entitled Rocket Elevators in the Elevator Market - Analysis, Size, Share, Growth, Trends and Global Outlook for 2018-2026, published by Transparency Market Research, the global market for Rocket Elevators elevators is expected to reach $ 50.76
+							</p>
+							<ul class="text-left fs-12 list-inline list-separator">
+								<li>
+									<i class="fa fa-calendar"></i> 
+									26th Jan 2019
+								</li>
+								<li>
+									<a href="blog-single-default.html#comments">
+										<i class="fa fa-comments"></i> 
+										29
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="img-hover">
+							<a href="https://chicago.suntimes.com/business/zoning-committee-observation-deck-aon-center-millennium-park-willis-tower-john-hancock/">
+								<img class="img-fluid" src="RocketElevatorAssets\aon2-e1547757349303.jpg" alt="">
+							</a>
+							<h4 class="text-left mt-20"><a href="blog-single-default.html">Glass elevators on outside of Aon Center will take visitors to new viewing deck</a></h4>
+							<p class="text-left">A new observatory by Rocket Elevators is planned for the Aon Center in downtown Chicago. I Associated Press</p>
+							<ul class="text-left fs-12 list-inline list-separator">
+								<li>
+									<i class="fa fa-calendar"></i> 
+									27th Jan 2019
+								</li>
+								<li>
+									<a href="blog-single-default.html#comments">
+										<i class="fa fa-comments"></i> 
+										112
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="img-hover">
+							<a href="https://thespringtimes.com/2019/01/18/global-elevators-and-escalators-market-segmented-by-application-technology-type-and-geography-growth-trends-and-forecast-2018-2023/">
+								<img class="img-fluid" src="RocketElevatorAssets\bigstock-Business-team-analyzing-market-39980689-900x450.jpg" alt="">
+							</a>
+							<h4 class="text-left mt-20"><a href="blog-single-default.html">Rocket Elevators> Global Elevators and Escalators Market – Segmented by Application, Technology, Type, and Geography – Growth, Trends, and Forecast (2018 – 2023)</a></h4>
+							<p class="text-left">The Elevators and Escalators report covers the Global market and regional market analysis.</p>
+							<ul class="text-left fs-12 list-inline list-separator">
+								<li>
+									<i class="fa fa-calendar"></i> 
+									30th Jan 2017
+								</li>
+								<li>
+									<a href="blog-single-default.html#comments">
+										<i class="fa fa-comments"></i> 
+										209
+									</a>
+								</li>
+							</ul>
+					
+
+				</div>
+			</section>
+			<!-- /News -->
+
+			<!-- Clients -->
+			<section id="CLIENTS_PAGE">
+			<section class="alternate">
+					<div class="container">
+	
+						<div class="heading-title heading-dotted text-center">
+							<h2>Our Clients</h2>
+						</div>
+	
+						<ul class="row clients-dotted list-inline">
+							<li class="col-md-3 col-sm-3 col-6">
+								<a href="#">
+									<img class="img-fluid" src="RocketElevatorAssets\red-bull-can-png-logo-18.jpg" alt="client" />
+								</a>
+							</li>
+							<li class="col-md-3 col-sm-3 col-6">
+								<a href="#">
+									<img class="img-fluid" src="RocketElevatorAssets\monster-energy-logo-stencil-146057-1582822.png"  alt="client" />
+								</a>
+							</li>
+							<li class="col-md-3 col-sm-3 col-6">
+								<a href="#">
+									<img class="img-fluid" src="RocketElevatorAssets\Sponsors_0014_Rockstar-Horizontal.png" alt="client" />
+								</a>
+							</li>
+							<li class="col-md-3 col-sm-3 col-6">
+								<a href="#">
+									<img class="img-fluid" src="RocketElevatorAssets\EA_Sports.png" alt="client" />
+								</a>
+							</li>
+							<li class="col-md-3 col-sm-3 col-6">
+								<a href="#">
+									<img class="img-fluid" src="RocketElevatorAssets\sdsd.png" alt="client" />
+								</a>
+							</li>
+							<li class="col-md-3 col-sm-3 col-6">
+								<a href="#">
+									<img class="img-fluid" src="RocketElevatorAssets\big3.png" alt="client" />
+								</a>
+							</li>
+							<li class="col-md-3 col-sm-3 col-6">
+								<a href="#">
+									<img class="img-fluid" src="RocketElevatorAssets\bauer-3-logo-png-transparent.png" alt="client" />
+								</a>
+							</li>
+							<li class="col-md-3 col-sm-3 col-6">
+								<a href="#">
+									<img class="img-fluid" src="RocketElevatorAssets\Reebok-Logo-Vector-Free-Download.png" alt="client" />
+									<li class="col-md-3 col-sm-3 col-6">
+										<a href="#">
+											<img class="img-fluid" src="RocketElevatorAssets\téléchargement (1).jpg" alt="client" />
+										</a>
+									</li>
+									<li class="col-md-3 col-sm-3 col-6">
+										<a href="#">
+											<img class="img-fluid" src="RocketElevatorAssets\WordPress-logotype-simplified.png" alt="client" />
+										</a>
+									</li>
+									<li class="col-md-3 col-sm-3 col-6">
+										<a href="#">
+											<img class="img-fluid" src="RocketElevatorAssets\500px-Dell_Logo.svg.png" alt="client" />
+										</a>
+									</li>
+									<li class="col-md-3 col-sm-3 col-6">
+										<a href="#">
+											<img class="img-fluid" src="RocketElevatorAssets\wdg_logo_image.png" alt="client" />
+										</a>
+									</li>
+								</a>
+							</li>
+						</ul>
+	
+					</div>
+				</section>
+				<!-- /Clients -->
+
+			<!-- CONTACT US -->
+			<section id="PAGE_CONTACT">
+				<div class="container">
+					
+					<div class="row">
+
+						<!-- FORM -->
+						<div class="col-md-8">
+
+							<h3>Contact <strong><em>us</em></strong></h3>
+
+							
+							<!--
+								MESSAGES
+								
+									How it works?
+									The form data is posted to php/contact.php where the fields are verified!
+									php.contact.php will redirect back here and will add a hash to the end of the URL:
+										#alert_success 		= email sent
+										#alert_failed		= email not sent - internal server error (404 error or SMTP problem)
+										#alert_mandatory	= email not sent - required fields empty
+										Hashes are handled by assets/js/contact.js
+
+									Form data: required to be an array. Example:
+										contact[email][required]  WHERE: [email] = field name, [required] = only if this field is required (PHP will check this)
+										Also, add `required` to input fields if is a mandatory field. 
+										Example: <input required type="email" value="" class="form-control" name="contact[email][required]">
+
+									PLEASE NOTE: IF YOU WANT TO ADD OR REMOVE FIELDS (EXCEPT CAPTCHA), JUST EDIT THE HTML CODE, NO NEED TO EDIT php/contact.php or javascript
+												 ALL FIELDS ARE DETECTED DINAMICALY BY THE PHP
+
+									WARNING! Do not change the `email` and `name`!
+												contact[name][required] 	- should stay as it is because PHP is using it for AddReplyTo (phpmailer)
+												contact[email][required] 	- should stay as it is because PHP is using it for AddReplyTo (phpmailer)
+							-->
+
+							<!-- Alert Success -->
+							<div id="alert_success" class="alert alert-success mb-30">
+								<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+								<strong>Thank You!</strong> Your message successfully sent!
+							</div><!-- /Alert Success -->
+
+
+							<!-- Alert Failed -->
+							<div id="alert_failed" class="alert alert-danger mb-30">
+								<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+								<strong>[SMTP] Error!</strong> Internal server error!
+							</div><!-- /Alert Failed -->
+
+
+							<!-- Alert Mandatory -->
+							<div id="alert_mandatory" class="alert alert-danger mb-30">
+								<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+								<strong>Sorry!</strong> You need to complete all mandatory (*) fields!
+							</div><!-- /Alert Mandatory -->
+
+
+							<form action="php/contact.php" method="post" enctype="multipart/form-data">
+								<fieldset>
+									<input type="hidden" name="action" value="contact_send" />
+
+									<div class="row">
+											<div class="col-md-4">
+												<label for="contact:name">Full Name *</label>
+												<input required type="text" value="" class="form-control" name="contact[name][required]" id="contact:name">
+											</div>
+											<div class="col-md-4">
+												<label for="contact:email">Company Name *</label>
+												<input required type="email" value="" class="form-control" name="contact[email][required]" id="contact:email">
+											</div>
+											<div class="col-md-4">
+												<label for="contact:phone">Email *</label>
+												<input type="text" value="" class="form-control" name="contact[phone]" id="contact:phone">
+											</div>
+											<div class="col-md-4">
+												<label for="contact:name">Phone Number *</label>
+												<input required type="text" value="" class="form-control" name="contact[name][required]" id="contact:name">
+											</div>
+									</div>
+									<div class="row">
+											<div class="col-md-8">
+												<label for="contact:subject">Name of your project *</label>
+												<input required type="text" value="" class="form-control" name="contact[subject][required]" id="contact:subject">
+											</div>
+											<div class="col-md-4">
+												<label for="contact_department">Department</label>
+												<select class="form-control pointer" name="contact[department]">
+													<option value="">--- Select ---</option>
+													<option value="Marketing">RESIDENTIAL</option>
+													<option value="Webdesign">CORPORATE</option>
+												</select>
+											</div>
+									</div>
+									<div class="row">
+											<div class="col-md-12">
+												<label for="contact:message">Project description *</label>
+												<textarea required maxlength="10000" rows="8" class="form-control" name="contact[message]" id="contact:message"></textarea>
+											</div>
+									</div>
+									<div class="row">
+										<div class="col-md-12">
+											<label for="contact:message">Message *</label>
+											<textarea required maxlength="10000" rows="8" class="form-control" name="contact[message]" id="contact:message"></textarea>
+										</div>
+								</div>
+									<div class="row">
+											<div class="col-md-12">
+												<label for="contact:attachment">File Attachment</label>
+
+												<!-- custom file upload -->
+												<input class="custom-file-upload" type="file" id="file" name="contact[attachment]" id="contact:attachment" data-btn-text="Select a File" />
+												<small class="text-muted block">Max file size: 10Mb (zip/pdf/jpg/png)</small>
+
+											</div>
+									</div>
+
+								</fieldset>
+
+								<div class="row">
+									<div class="col-md-12">
+										<button type="submit" class="btn btn-primary"><i class="fa fa-check"></i> SEND MESSAGE</button>
+									</div>
+								</div>
+							</form>
+
+						</div>
+					</section>
+						<!-- /FORM -->
+
+
+						<!-- INFO -->
+						<div class="col-md-4">
+
+
+							<!-- 
+							Available heights
+								h-100
+								h-150
+								h-200
+								h-250
+								h-300
+								h-350
+								h-400
+								h-450
+								h-500
+								h-550
+								h-600
+							-->
+							<hr />
+
+							<p>
+								<span class="block"><strong><i class="fa fa-map-marker"></i> Address:</strong> 418-725 Boulevard Lebourgneuf, Québec, Canada</span>
+								<span class="block"><strong><i class="fa fa-phone"></i> Phone:</strong> <a href="tel:(418) 580-7055">(418) 580-7055</a></span>
+								<span class="block"><strong><i class="fa fa-envelope"></i> Email:</strong> <a href="mailto:nicolas.genest@codeboxx.biz">nicolas.genest@codeboxx.biz</a></span>
+							</p>
+
+						</div>
+						<!-- /INFO -->
+
+					</div>
+
+				</div>
+			</section>
+			<!-- CONTACT US -->
+
+			<!-- FOOTER -->
+			<footer id="footer">
+				<div class="container">
+
+					<div class="row">
+						
+						<div class="col-md-3">
+
+							<!-- Contact Address -->
+							<address>
+								<ul class="list-unstyled">
+									<li class="footer-sprite address">
+										418-725, Boulevard Lebourgneuf<br>
+										Québec, Québec<br>
+										G2J 0C4<br>
+									</li>
+									<li class="footer-sprite phone">
+										Phone: (418) 580-7055
+									</li>
+									<li class="footer-sprite email">
+										<a href="mailto:nicolas.genest@codeboxx.biz">nicolas.genest@codeboxx.biz</a>
+									</li>
+								</ul>
+							</address>
+							<!-- /Contact Address -->
+
+						</div>
+
+						<div class="col-md-3">
+
+							<!-- Latest Blog Post -->
+							<ul class="footer-posts list-unstyled">
+								<li>
+									<a href="index-corporate-1.html">REQUEST FOR SUBMISSION</a>
+
+								</li>
+								<li>
+									<a href="#PAGE_CONTACT">Contact us</a>
+								</li>
+								<li>
+									<a>Founded since 1976</a>
+								</li>
+							</ul>
+							<!-- /Latest Blog Post -->
+
+						</div>
+
+						<div class="col-md-2">
+
+
+						</div>
+
+						<div class="col-md-4">
+
+
+							<!-- Social Icons -->
+							<div class="mt-20">
+								<a href="#" class="social-icon social-icon-border social-facebook float-left" data-toggle="tooltip" data-placement="top" title="Facebook">
+
+									<i class="icon-facebook"></i>
+									<i class="icon-facebook"></i>
+								</a>
+
+								<a href="#" class="social-icon social-icon-border social-twitter float-left" data-toggle="tooltip" data-placement="top" title="Twitter">
+									<i class="icon-twitter"></i>
+									<i class="icon-twitter"></i>
+								</a>
+
+								<a href="#" class="social-icon social-icon-border social-gplus float-left" data-toggle="tooltip" data-placement="top" title="Google plus">
+									<i class="icon-gplus"></i>
+									<i class="icon-gplus"></i>
+								</a>
+
+								<a href="#" class="social-icon social-icon-border social-linkedin float-left" data-toggle="tooltip" data-placement="top" title="Linkedin">
+									<i class="icon-linkedin"></i>
+									<i class="icon-linkedin"></i>
+								</a>
+
+								<a href="#" class="social-icon social-icon-border social-rss float-left" data-toggle="tooltip" data-placement="top" title="Rss">
+									<i class="icon-rss"></i>
+									<i class="icon-rss"></i>
+								</a>
+					
+							</div>
+							<!-- /Social Icons -->
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="copyright">
+					<div class="container">
+						<ul class="float-right m-0 list-inline mobile-block">
+							<li><a href="#">Terms &amp; Conditions</a></li>
+							<li>&bull;</li>
+							<li><a href="#">Privacy</a></li>
+						</ul>
+						&copy; All Rights Reserved, Company LTD
+					</div>
+				</div>
+			</footer>
+			<!-- /FOOTER -->
+
+			<!-- /wrapper -->
+
+
+		<!-- SCROLL TO TOP -->
+		<a href="#" id="toTop"></a>
+
+
+		<!-- PRELOADER -->
+		<div id="preloader">
+			<div class="inner">
+				<span class="loader"></span>
+			</div>
+		</div>
+		<!-- /PRELOADER -->
+
+
+		<!-- JAVASCRIPT FILES -->
+		<script>var plugin_path = 'assets/plugins/';</script>
+		<script src="assets/plugins/jquery/jquery-3.3.1.min.js"></script>
+
+		<script src="assets/js/scripts.js"></script>
+		
+		<!-- STYLESWITCHER - REMOVE -->
+		<script async src="demo_files/styleswitcher/styleswitcher.js"></script>
+
+				<!-- REVOLUTION SLIDER -->
+		<script src="assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js"></script>
+		<script src="assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js"></script>
+		<script src="assets/js/view/demo.revolution_slider.js"></script>
+
+
+		
+	</body>
+</html>														
