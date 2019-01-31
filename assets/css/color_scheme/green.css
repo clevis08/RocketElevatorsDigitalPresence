@@ -74,7 +74,7 @@
 	.box-icon.box-icon-color i,
 	.switch-primary.switch-round > input:checked + .switch-label:after,
 	section.dark .nav-tabs.nav-clean>li>a.active { 
-		color: #ff0000; 
+		color: #ffffff; 
 	}
 	
 	#sidepanel.sidepanel-theme-color,

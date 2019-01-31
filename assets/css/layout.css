@@ -89,7 +89,7 @@ section {
 	position: relative;
 	padding: 100px 0;
 	border-bottom:rgba(204, 204, 204) 1px solid;
-	background-color: #cccccc;
+	background-color: #d4d4d4;
 
 	/*
 	-webkit-transition: all .400s;
@@ -5428,7 +5428,7 @@ section.page-header * {
 }
 .btn-default {
     color: #ccc;
-    background-color: #0f00e0;
+    background-color: #0b64a0;
     border-color: #ccc;
     border-width: 1px;
     padding: 6px 12px;
