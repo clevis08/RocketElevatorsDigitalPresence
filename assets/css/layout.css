@@ -59,7 +59,7 @@ html, body {
 }
 body {
 	color:#666;
-	background-color:#a0a0a0;
+	background-color:#d4d4d4;
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 
@@ -87,7 +87,7 @@ body.bg-grey #wrapper {
 section {
 	display: block;
 	position: relative;
-	padding: 0px 0;
+	padding: 50px 0;
 	border-bottom:rgba(204, 204, 204) 1px solid;
 	background-color: #d4d4d4;
 
